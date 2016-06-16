@@ -15,5 +15,5 @@ public func dayOfWeek(_ y: Int, _ m: Int, _ d: Int) -> Int {
         + y / 4
         + c / 4
         + 5 * c) % 7
-    return (h + 6) % 7
+    return (h + 5) % 7 + 1
 }

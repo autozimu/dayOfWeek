@@ -12,5 +12,6 @@ public func dayOfWeek(_ y: Int, _ m: Int, _ d: Int) -> Int {
     let centuryTable = [0, 5, 3, 1]
     let f = centuryTable[c % 4]
 
-    return (d + e + f + g + g/4) % 7
+    let h = (d + e + f + g + g/4) % 7
+    return (h + 6) % 7 + 1
 }

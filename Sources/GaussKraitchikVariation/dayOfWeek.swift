@@ -12,5 +12,6 @@ public func dayOfWeek(_ y: Int, _ m: Int, _ d: Int) -> Int {
     y = y % 100
     y = (y / 4 + y) % 7
 
-    return (d + m + c + y) % 7
+    let h = (d + m + c + y) % 7
+    return (h + 5) % 7 + 1
 }
