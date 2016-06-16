@@ -6,6 +6,7 @@ let package = Package(
        Target(name: "Gauss"),
        Target(name: "GaussDisparateVariation"),
        Target(name: "GaussKraitchikVariation"),
-       Target(name: "GaussSchwerdtfegerVariation")
+       Target(name: "GaussSchwerdtfegerVariation"),
+       Target(name: "Zeller")
    ]
 )
