@@ -1,5 +1,5 @@
 import XCTest
-import GaussSchwerdtfegerVariation
+import GaussSchwerdtfeger
 
 class DayOfWeekTests: XCTestCase {
     func test20160615() {

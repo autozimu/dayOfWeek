@@ -1,5 +1,5 @@
 import XCTest
-import GaussKraitchikVariation
+import GaussDisparate
 
 class DayOfWeekTests: XCTestCase {
     func test20160615() {
