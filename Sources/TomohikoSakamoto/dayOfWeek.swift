@@ -2,6 +2,8 @@
  Get day of the week.
  
  For any Gregorian date.
+
+ <https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Implementation-dependent_methods>
  
  - Returns: day of week (0 for Sunday, 1 for Monday, ...)
  */
