@@ -4,6 +4,6 @@ let package = Package(
    targets: [
        Target(name: "TomohikoSakamoto"),
        Target(name: "Gauss"),
-       Target(name: "GaussDisparateInvariation")
+       Target(name: "GaussDisparateVariation")
    ]
 )
