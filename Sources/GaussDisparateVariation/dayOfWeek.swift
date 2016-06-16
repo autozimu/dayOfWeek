@@ -11,8 +11,8 @@ public func dayOfWeek(_ y: Int, _ m: Int, _ d: Int) -> Int {
     return (d
        + Int(round(2.6 * Float(m) - 0.2))
        + y
-       + y % 4
-       + c % 4
+       + y / 4
+       + c / 4
        - 2 * c
        ) % 7
 }
