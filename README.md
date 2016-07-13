@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/autozimu/dayOfWeek.svg?branch=master)](https://travis-ci.org/autozimu/dayOfWeek)
+
 Implementation of variaous ways of [Determination of the day of the week](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week).
 
 Currently implemented,
