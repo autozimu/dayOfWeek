@@ -1,4 +1,4 @@
-import os
+import Foundation
 
 public func dayOfWeek(_ y: Int, _ m: Int, _ d: Int) -> Int {
     var y = y
@@ -7,7 +7,7 @@ public func dayOfWeek(_ y: Int, _ m: Int, _ d: Int) -> Int {
     }
     let m = (m - 2) % 12
     let h = (d
-        + Int(roundf(2.6 * Float(m) - 0.2))
+        + Int(round(2.6 * Float(m) - 0.2))
         + 5 * (y % 4)
         + 4 * (y % 100)
         + 6 * (y % 400)

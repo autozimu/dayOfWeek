@@ -1,4 +1,4 @@
-import os
+import Foundation
 
 public func dayOfWeek(_ y: Int, _ m: Int, _ d: Int) -> Int {
     var Y = y
